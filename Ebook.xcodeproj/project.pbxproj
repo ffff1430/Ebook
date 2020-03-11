@@ -13,6 +13,15 @@
 		F87CAE732415D6660009FEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87CAE712415D6660009FEFF /* Main.storyboard */; };
 		F87CAE752415D6690009FEFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87CAE742415D6690009FEFF /* Assets.xcassets */; };
 		F87CAE782415D6690009FEFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87CAE762415D6690009FEFF /* LaunchScreen.storyboard */; };
+		F87CAE802416042D0009FEFF /* CBR250rr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE7F2416042D0009FEFF /* CBR250rr.swift */; };
+		F87CAE822417C2C60009FEFF /* CBR600rr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE812417C2C60009FEFF /* CBR600rr.swift */; };
+		F87CAE842417C41A0009FEFF /* CBR650r.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE832417C41A0009FEFF /* CBR650r.swift */; };
+		F87CAE862417C6B50009FEFF /* CBR1000rr.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE852417C6B50009FEFF /* CBR1000rr.swift */; };
+		F87CAE882417C80E0009FEFF /* CBR500r.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE872417C80E0009FEFF /* CBR500r.swift */; };
+		F87CAE8C2417ED660009FEFF /* CB300r.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE8B2417ED660009FEFF /* CB300r.swift */; };
+		F87CAE8E2418AF750009FEFF /* CB650r.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE8D2418AF750009FEFF /* CB650r.swift */; };
+		F87CAE902418B28F0009FEFF /* CB1000r.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE8F2418B28F0009FEFF /* CB1000r.swift */; };
+		F87CAE922418BAE00009FEFF /* my_MT-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CAE912418BAE00009FEFF /* my_MT-03.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		F87CAE742415D6690009FEFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87CAE772415D6690009FEFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87CAE792415D6690009FEFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87CAE7F2416042D0009FEFF /* CBR250rr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBR250rr.swift; sourceTree = "<group>"; };
+		F87CAE812417C2C60009FEFF /* CBR600rr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBR600rr.swift; sourceTree = "<group>"; };
+		F87CAE832417C41A0009FEFF /* CBR650r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBR650r.swift; sourceTree = "<group>"; };
+		F87CAE852417C6B50009FEFF /* CBR1000rr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBR1000rr.swift; sourceTree = "<group>"; };
+		F87CAE872417C80E0009FEFF /* CBR500r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBR500r.swift; sourceTree = "<group>"; };
+		F87CAE8B2417ED660009FEFF /* CB300r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CB300r.swift; sourceTree = "<group>"; };
+		F87CAE8D2418AF750009FEFF /* CB650r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CB650r.swift; sourceTree = "<group>"; };
+		F87CAE8F2418B28F0009FEFF /* CB1000r.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CB1000r.swift; sourceTree = "<group>"; };
+		F87CAE912418BAE00009FEFF /* my_MT-03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "my_MT-03.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,15 @@
 				F87CAE742415D6690009FEFF /* Assets.xcassets */,
 				F87CAE762415D6690009FEFF /* LaunchScreen.storyboard */,
 				F87CAE792415D6690009FEFF /* Info.plist */,
+				F87CAE7F2416042D0009FEFF /* CBR250rr.swift */,
+				F87CAE812417C2C60009FEFF /* CBR600rr.swift */,
+				F87CAE832417C41A0009FEFF /* CBR650r.swift */,
+				F87CAE852417C6B50009FEFF /* CBR1000rr.swift */,
+				F87CAE872417C80E0009FEFF /* CBR500r.swift */,
+				F87CAE8B2417ED660009FEFF /* CB300r.swift */,
+				F87CAE8D2418AF750009FEFF /* CB650r.swift */,
+				F87CAE8F2418B28F0009FEFF /* CB1000r.swift */,
+				F87CAE912418BAE00009FEFF /* my_MT-03.swift */,
 			);
 			path = Ebook;
 			sourceTree = "<group>";
@@ -140,7 +167,16 @@
 			files = (
 				F87CAE702415D6660009FEFF /* ViewController.swift in Sources */,
 				F87CAE6C2415D6660009FEFF /* AppDelegate.swift in Sources */,
+				F87CAE862417C6B50009FEFF /* CBR1000rr.swift in Sources */,
 				F87CAE6E2415D6660009FEFF /* SceneDelegate.swift in Sources */,
+				F87CAE802416042D0009FEFF /* CBR250rr.swift in Sources */,
+				F87CAE842417C41A0009FEFF /* CBR650r.swift in Sources */,
+				F87CAE8C2417ED660009FEFF /* CB300r.swift in Sources */,
+				F87CAE922418BAE00009FEFF /* my_MT-03.swift in Sources */,
+				F87CAE882417C80E0009FEFF /* CBR500r.swift in Sources */,
+				F87CAE822417C2C60009FEFF /* CBR600rr.swift in Sources */,
+				F87CAE8E2418AF750009FEFF /* CB650r.swift in Sources */,
+				F87CAE902418B28F0009FEFF /* CB1000r.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
